@@ -1,0 +1,201 @@
+﻿src/components/shop/cart.tsx(195,12): error TS2375: Type '{ idp: string; onCancel: (() => void) | undefined; onSave: (a: Address, main: boolean) => void; }' is not assignable to type '{ initial?: Address; onSave: (a: Address, makeMain: boolean) => void; onCancel?: () => void; idp?: string; submitLabel?: string; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'onCancel' are incompatible.
+    Type '(() => void) | undefined' is not assignable to type '() => void'.
+      Type 'undefined' is not assignable to type '() => void'.
+src/components/shop/cart.tsx(316,18): error TS2375: Type '{ idp: string; submitLabel: string; onCancel: (() => void) | undefined; onSave: (c: SavedCard) => void; }' is not assignable to type '{ onSave: (c: SavedCard) => void; onCancel?: () => void; idp?: string; submitLabel?: string; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'onCancel' are incompatible.
+    Type '(() => void) | undefined' is not assignable to type '() => void'.
+      Type 'undefined' is not assignable to type '() => void'.
+src/components/shop/cart.tsx(383,81): error TS2322: Type 'ShippingOption | undefined' is not assignable to type 'ShippingOption'.
+  Type 'undefined' is not assignable to type 'ShippingOption'.
+src/components/shop/cart.tsx(400,113): error TS18048: 'option' is possibly 'undefined'.
+src/components/shop/cart.tsx(401,63): error TS18048: 'option' is possibly 'undefined'.
+src/components/shop/cart.tsx(539,8): error TS2375: Type '{ title: string; subtitle: string | undefined; }' is not assignable to type '{ title: string; subtitle?: string; children?: ReactNode; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'subtitle' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/components/shop/catalog.tsx(36,22): error TS4111: Property 'page' comes from an index signature, so it must be accessed with ['page'].
+src/components/shop/catalog.tsx(37,24): error TS4111: Property 'rating' comes from an index signature, so it must be accessed with ['rating'].
+src/components/shop/catalog.tsx(38,3): error TS2375: Type '{ q: string | undefined; category: string | undefined; brand: string | undefined; min: number | undefined; max: number | undefined; rating: number | undefined; sale: true | undefined; stock: true | undefined; sort: string | undefined; page: number | undefined; view: "list" | undefined; }' is not assignable to type 'CatalogSearch' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'q' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/components/shop/catalog.tsx(39,15): error TS4111: Property 'q' comes from an index signature, so it must be accessed with ['q'].
+src/components/shop/catalog.tsx(40,22): error TS4111: Property 'category' comes from an index signature, so it must be accessed with ['category'].
+src/components/shop/catalog.tsx(41,19): error TS4111: Property 'brand' comes from an index signature, so it must be accessed with ['brand'].
+src/components/shop/catalog.tsx(42,16): error TS4111: Property 'min' comes from an index signature, so it must be accessed with ['min'].
+src/components/shop/catalog.tsx(43,16): error TS4111: Property 'max' comes from an index signature, so it must be accessed with ['max'].
+src/components/shop/catalog.tsx(45,18): error TS4111: Property 'sale' comes from an index signature, so it must be accessed with ['sale'].
+src/components/shop/catalog.tsx(46,19): error TS4111: Property 'stock' comes from an index signature, so it must be accessed with ['stock'].
+src/components/shop/catalog.tsx(47,49): error TS4111: Property 'sort' comes from an index signature, so it must be accessed with ['sort'].
+src/components/shop/catalog.tsx(47,60): error TS4111: Property 'sort' comes from an index signature, so it must be accessed with ['sort'].
+src/components/shop/catalog.tsx(49,13): error TS4111: Property 'view' comes from an index signature, so it must be accessed with ['view'].
+src/components/shop/catalog.tsx(116,50): error TS2379: Argument of type '{ min: number | undefined; max: number | undefined; }' is not assignable to parameter of type 'Partial<CatalogSearch>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'min' are incompatible.
+    Type 'number | undefined' is not assignable to type 'number'.
+      Type 'undefined' is not assignable to type 'number'.
+src/components/shop/catalog.tsx(151,43): error TS2322: Type 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+src/components/shop/catalog.tsx(151,49): error TS2322: Type 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+src/components/shop/catalog.tsx(152,41): error TS2322: Type 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+src/components/shop/catalog.tsx(152,47): error TS2322: Type 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+src/components/shop/catalog.tsx(179,100): error TS2379: Argument of type '{ rating: undefined; }' is not assignable to parameter of type 'Partial<CatalogSearch>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'rating' are incompatible.
+    Type 'undefined' is not assignable to type 'number'.
+src/components/shop/catalog.tsx(189,86): error TS2379: Argument of type '{ sale: true | undefined; }' is not assignable to parameter of type 'Partial<CatalogSearch>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'sale' are incompatible.
+    Type 'boolean | undefined' is not assignable to type 'boolean'.
+      Type 'undefined' is not assignable to type 'boolean'.
+src/components/shop/catalog.tsx(195,88): error TS2379: Argument of type '{ stock: true | undefined; }' is not assignable to parameter of type 'Partial<CatalogSearch>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'stock' are incompatible.
+    Type 'boolean | undefined' is not assignable to type 'boolean'.
+      Type 'undefined' is not assignable to type 'boolean'.
+src/components/shop/catalog.tsx(239,16): error TS2322: Type '(prev: CatalogSearch) => { page: number | undefined; q?: string; category?: string; brand?: string; min?: number; max?: number; rating?: number; sale?: boolean; stock?: boolean; sort?: string; view?: "list"; }' is not assignable to type 'true | { q?: string; category?: string; brand?: string; min?: number; max?: number; rating?: number; sale?: boolean; stock?: boolean; sort?: string; page?: number; view?: "list"; } | ParamsReducerFn<RouterCore<Route<Register, ... 16 more ..., undefined>, "never", false, RouterHistory, Record<...>>, "SEARCH", "/produ...'.
+  Type '(prev: CatalogSearch) => { page: number | undefined; q?: string; category?: string; brand?: string; min?: number; max?: number; rating?: number; sale?: boolean; stock?: boolean; sort?: string; view?: "list"; }' is not assignable to type 'ParamsReducerFn<RouterCore<Route<Register, any, "/", "/", string, "__root__", undefined, {}, { queryClient: QueryClient; }, AnyContext, AnyContext, ... 6 more ..., undefined>, "never", false, RouterHistory, Record<...>>, "SEARCH", "/produtos", string | undefined>'.
+    Call signature return types '{ page: number | undefined; q?: string; category?: string; brand?: string; min?: number; max?: number; rating?: number; sale?: boolean; stock?: boolean; sort?: string; view?: "list"; }' and '{ q?: string; category?: string; brand?: string; min?: number; max?: number; rating?: number; sale?: boolean; stock?: boolean; sort?: string; page?: number; view?: "list"; }' are incompatible.
+      The types of 'page' are incompatible between these types.
+        Type 'number | undefined' is not assignable to type 'number'.
+          Type 'undefined' is not assignable to type 'number'.
+src/components/shop/catalog.tsx(240,34): error TS2322: Type '{ sort: string | undefined; view: "list" | undefined; }' is not assignable to type 'true | { q?: string; category?: string; brand?: string; min?: number; max?: number; rating?: number; sale?: boolean; stock?: boolean; sort?: string; page?: number; view?: "list"; } | ParamsReducerFn<RouterCore<Route<Register, ... 16 more ..., undefined>, "never", false, RouterHistory, Record<...>>, "SEARCH", "/produ...'.
+  Type '{ sort: string | undefined; view: "list" | undefined; }' is not assignable to type '{ q?: string; category?: string; brand?: string; min?: number; max?: number; rating?: number; sale?: boolean; stock?: boolean; sort?: string; page?: number; view?: "list"; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+    Types of property 'sort' are incompatible.
+      Type 'string | undefined' is not assignable to type 'string'.
+        Type 'undefined' is not assignable to type 'string'.
+src/components/shop/catalog.tsx(242,12): error TS2379: Argument of type '{ page: number | undefined; }' is not assignable to parameter of type 'Partial<CatalogSearch>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'page' are incompatible.
+    Type 'number | undefined' is not assignable to type 'number'.
+      Type 'undefined' is not assignable to type 'number'.
+src/components/shop/catalog.tsx(247,76): error TS2379: Argument of type '{ category: string | undefined; }' is not assignable to parameter of type 'Partial<CatalogSearch>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'category' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/components/shop/catalog.tsx(248,73): error TS2379: Argument of type '{ brand: string | undefined; }' is not assignable to parameter of type 'Partial<CatalogSearch>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'brand' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/components/shop/catalog.tsx(249,160): error TS2379: Argument of type '{ min: undefined; max: undefined; }' is not assignable to parameter of type 'Partial<CatalogSearch>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'min' are incompatible.
+    Type 'undefined' is not assignable to type 'number'.
+src/components/shop/catalog.tsx(250,86): error TS2379: Argument of type '{ rating: undefined; }' is not assignable to parameter of type 'Partial<CatalogSearch>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'rating' are incompatible.
+    Type 'undefined' is not assignable to type 'number'.
+src/components/shop/catalog.tsx(251,69): error TS2379: Argument of type '{ sale: undefined; }' is not assignable to parameter of type 'Partial<CatalogSearch>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'sale' are incompatible.
+    Type 'undefined' is not assignable to type 'boolean'.
+src/components/shop/catalog.tsx(252,70): error TS2379: Argument of type '{ stock: undefined; }' is not assignable to parameter of type 'Partial<CatalogSearch>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'stock' are incompatible.
+    Type 'undefined' is not assignable to type 'boolean'.
+src/components/shop/catalog.tsx(253,75): error TS2379: Argument of type '{ q: undefined; }' is not assignable to parameter of type 'Partial<CatalogSearch>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'q' are incompatible.
+    Type 'undefined' is not assignable to type 'string'.
+src/components/shop/catalog.tsx(287,112): error TS2379: Argument of type '{ sort: string | undefined; }' is not assignable to parameter of type 'Partial<CatalogSearch>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'sort' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/components/shop/catalog.tsx(295,148): error TS2379: Argument of type '{ view: undefined; }' is not assignable to parameter of type 'Partial<CatalogSearch>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'view' are incompatible.
+    Type 'undefined' is not assignable to type '"list"'.
+src/components/shop/forms.tsx(71,10): error TS2375: Type '{ children: Element; id: string; label: string; error: string | undefined; }' is not assignable to type '{ id: string; label: string; error?: string; hint?: string; children: ReactNode; className?: string; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'error' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/components/shop/forms.tsx(74,10): error TS2375: Type '{ children: Element; id: string; label: string; error: string | undefined; hint: string; }' is not assignable to type '{ id: string; label: string; error?: string; hint?: string; children: ReactNode; className?: string; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'error' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/components/shop/forms.tsx(86,10): error TS2375: Type '{ children: Element; id: string; label: string; error: string | undefined; className: string; }' is not assignable to type '{ id: string; label: string; error?: string; hint?: string; children: ReactNode; className?: string; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'error' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/components/shop/forms.tsx(89,10): error TS2375: Type '{ children: Element; id: string; label: string; error: string | undefined; }' is not assignable to type '{ id: string; label: string; error?: string; hint?: string; children: ReactNode; className?: string; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'error' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/components/shop/forms.tsx(95,10): error TS2375: Type '{ children: Element; id: string; label: string; error: string | undefined; }' is not assignable to type '{ id: string; label: string; error?: string; hint?: string; children: ReactNode; className?: string; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'error' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/components/shop/forms.tsx(98,10): error TS2375: Type '{ children: Element; id: string; label: string; error: string | undefined; }' is not assignable to type '{ id: string; label: string; error?: string; hint?: string; children: ReactNode; className?: string; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'error' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/components/shop/forms.tsx(101,10): error TS2375: Type '{ children: Element; id: string; label: string; error: string | undefined; }' is not assignable to type '{ id: string; label: string; error?: string; hint?: string; children: ReactNode; className?: string; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'error' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/components/shop/forms.tsx(148,10): error TS2375: Type '{ children: Element; id: string; label: string; error: string | undefined; className: string; }' is not assignable to type '{ id: string; label: string; error?: string; hint?: string; children: ReactNode; className?: string; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'error' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/components/shop/forms.tsx(151,10): error TS2375: Type '{ children: Element; id: string; label: string; error: string | undefined; className: string; }' is not assignable to type '{ id: string; label: string; error?: string; hint?: string; children: ReactNode; className?: string; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'error' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/components/shop/forms.tsx(154,10): error TS2375: Type '{ children: Element; id: string; label: string; error: string | undefined; }' is not assignable to type '{ id: string; label: string; error?: string; hint?: string; children: ReactNode; className?: string; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'error' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/components/shop/forms.tsx(157,10): error TS2375: Type '{ children: Element; id: string; label: string; error: string | undefined; }' is not assignable to type '{ id: string; label: string; error?: string; hint?: string; children: ReactNode; className?: string; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'error' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/components/shop/layout.tsx(48,33): error TS2322: Type '{ q: string | undefined; }' is not assignable to type 'true | { q?: string; category?: string; brand?: string; min?: number; max?: number; rating?: number; sale?: boolean; stock?: boolean; sort?: string; page?: number; view?: "list"; } | ParamsReducerFn<RouterCore<Route<Register, ... 16 more ..., undefined>, "never", false, RouterHistory, Record<...>>, "SEARCH", string,...'.
+  Type '{ q: string | undefined; }' is not assignable to type '{ q?: string; category?: string; brand?: string; min?: number; max?: number; rating?: number; sale?: boolean; stock?: boolean; sort?: string; page?: number; view?: "list"; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+    Types of property 'q' are incompatible.
+      Type 'string | undefined' is not assignable to type 'string'.
+        Type 'undefined' is not assignable to type 'string'.
+src/components/shop/profile.tsx(87,12): error TS2375: Type '{ children: Element; id: string; label: string; error: string | undefined; }' is not assignable to type '{ id: string; label: string; error?: string; hint?: string; children: ReactNode; className?: string; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'error' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/components/shop/profile.tsx(90,12): error TS2375: Type '{ children: Element; id: string; label: string; error: string | undefined; }' is not assignable to type '{ id: string; label: string; error?: string; hint?: string; children: ReactNode; className?: string; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'error' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/components/shop/profile.tsx(93,12): error TS2375: Type '{ children: Element; id: string; label: string; error: string | undefined; }' is not assignable to type '{ id: string; label: string; error?: string; hint?: string; children: ReactNode; className?: string; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'error' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/components/shop/profile.tsx(99,12): error TS2375: Type '{ children: Element; id: string; label: string; error: string | undefined; }' is not assignable to type '{ id: string; label: string; error?: string; hint?: string; children: ReactNode; className?: string; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'error' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/components/shop/profile.tsx(274,10): error TS2375: Type '{ key: string; idp: string; initial: Address | undefined; onCancel: () => void; onSave: (a: Address, main: boolean) => void; }' is not assignable to type '{ initial?: Address; onSave: (a: Address, makeMain: boolean) => void; onCancel?: () => void; idp?: string; submitLabel?: string; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'initial' are incompatible.
+    Type 'Address | undefined' is not assignable to type 'Address'.
+      Type 'undefined' is not assignable to type 'Address'.
+src/components/shop/profile.tsx(381,12): error TS2375: Type '{ children: Element; id: string; label: string; error: string | undefined; }' is not assignable to type '{ id: string; label: string; error?: string; hint?: string; children: ReactNode; className?: string; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'error' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/components/shop/profile.tsx(384,12): error TS2375: Type '{ children: Element; id: string; label: string; error: string | undefined; }' is not assignable to type '{ id: string; label: string; error?: string; hint?: string; children: ReactNode; className?: string; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'error' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/components/shop/profile.tsx(397,12): error TS2375: Type '{ children: Element; id: string; label: string; error: string | undefined; }' is not assignable to type '{ id: string; label: string; error?: string; hint?: string; children: ReactNode; className?: string; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'error' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/lib/shop/data.ts(111,14): error TS2322: Type '{ id: number; name: string; brand: string; category: "Smartphones" | "Notebooks" | "Fones de Ouvido" | "Smart TVs" | "Câmeras" | "Games" | "Acessórios" | "Smartwatches"; price: number; ... 10 more ...; sales: number; }[]' is not assignable to type 'Product[]'.
+  Type '{ id: number; name: string; brand: string; category: "Smartphones" | "Notebooks" | "Fones de Ouvido" | "Smart TVs" | "Câmeras" | "Games" | "Acessórios" | "Smartwatches"; price: number; ... 10 more ...; sales: number; }' is not assignable to type 'Product' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+    Types of property 'originalPrice' are incompatible.
+      Type 'number | undefined' is not assignable to type 'number'.
+        Type 'undefined' is not assignable to type 'number'.
+src/lib/shop/data.ts(147,3): error TS2322: Type '{ id: string; author: string | undefined; rating: number; date: string; comment: string | undefined; }[]' is not assignable to type 'Review[]'.
+  Type '{ id: string; author: string | undefined; rating: number; date: string; comment: string | undefined; }' is not assignable to type 'Review'.
+    Types of property 'author' are incompatible.
+      Type 'string | undefined' is not assignable to type 'string'.
+        Type 'undefined' is not assignable to type 'string'.
+src/lib/shop/data.ts(242,142): error TS2322: Type 'Address | undefined' is not assignable to type 'Address'.
+  Type 'undefined' is not assignable to type 'Address'.
+src/lib/shop/store.tsx(280,57): error TS2322: Type '{ main: true; id?: string; label?: string; cep?: string; street?: string; number?: string; complement?: string; district?: string; city?: string; uf?: string; }' is not assignable to type 'Address'.
+  Property 'id' is optional in type '{ main: true; id?: string; label?: string; cep?: string; street?: string; number?: string; complement?: string; district?: string; city?: string; uf?: string; }' but required in type 'Address'.
+src/routes/perfil.tsx(5,74): error TS2375: Type '{ tab: "favoritos" | "dados" | "pedidos" | "enderecos" | "pagamentos" | "seguranca" | undefined; }' is not assignable to type '{ tab?: "favoritos" | "dados" | "pedidos" | "enderecos" | "pagamentos" | "seguranca"; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'tab' are incompatible.
+    Type '"favoritos" | "dados" | "pedidos" | "enderecos" | "pagamentos" | "seguranca" | undefined' is not assignable to type '"favoritos" | "dados" | "pedidos" | "enderecos" | "pagamentos" | "seguranca"'.
+      Type 'undefined' is not assignable to type '"favoritos" | "dados" | "pedidos" | "enderecos" | "pagamentos" | "seguranca"'.
+src/routes/perfil.tsx(6,45): error TS4111: Property 'tab' comes from an index signature, so it must be accessed with ['tab'].
+src/routes/perfil.tsx(6,55): error TS4111: Property 'tab' comes from an index signature, so it must be accessed with ['tab'].
