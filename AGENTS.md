@@ -28,3 +28,8 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Application architecture
+- Keep mock catalog and commerce calculations in `src/lib/shop/data.ts` so all views share the same pricing and stock rules.
+- Use the root ShopProvider for browser-only persisted mock state; restore storage after hydration to keep SSR consistent and never store full card numbers or CVVs.
+- Keep four content routes with shared shop feature components; catalog search parameters belong to TanStack Router for browser history support.
